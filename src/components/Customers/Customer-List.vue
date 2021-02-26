@@ -11,7 +11,7 @@
                                         <div class="alert alert-success alert-dismissible fade show" role="alert">
                                             <strong>Ultimate Inventory with POS new Version 1.7.7 released , Faster and Customizable Application Software. If you have any queries please message here. [Some features are disabled in demo and it will be reset after each hour.]</strong> 
                                             <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                                            <span aria-hidden="true" class="text-white">&times;</span>
+                                            <span class="text-white">&times;</span>
                                             </button>
                                         </div>
                                         </div>
