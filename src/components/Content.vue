@@ -5,7 +5,7 @@
   
     <!-- /.content-wrapper -->
     <div class="content-wrapper">
-      <h1 class="lead text-center">Dashboard <span class="text-sm">Overall Information on Single Screen</span> </h1>
+      <h1 class="lead pt-3 px-3">Dashboard <span class="text-sm">Overall Information on Single Screen</span> </h1>
       <!-- Content Header (Page header) -->
       <div class="content-header">
         <div class="container-fluid">
