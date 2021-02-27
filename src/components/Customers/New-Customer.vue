@@ -189,8 +189,10 @@ export default {
             e.preventDefault();
         },
         Redirect(){
-            setTimeout("window.location=''",2000);
+            setTimeout("window.location='/Customers'",2000);
             }
+
+    }
 
     }
 </script>
