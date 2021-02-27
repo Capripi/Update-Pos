@@ -158,7 +158,7 @@ export default {
         }
     },
     methods:{
-        PostData(e){
+        PostData(){
             const formdata = new FormData();
             formdata.append('address',this.posts.addresss),
             formdata.append('city',this.posts.city),
@@ -185,7 +185,7 @@ export default {
             // show data [testing]
             console.table(this.posts);
             // submit data without page reload 
-            e.preventDefault();
+            // e.preventDefault();
         }
 
     }
