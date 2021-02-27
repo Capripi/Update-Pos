@@ -82,6 +82,11 @@
                                                                         </a>
                                                                         <ul  class="dropdown-menu dropdown-light pull-right">
                                                                             <li>
+                                                                                <a class="pointer" href="#" @click="EditData()">
+                                                                                    <i class="fa fa-edit text-danger">Edit</i>  
+                                                                                </a>
+                                                                            </li>
+                                                                            <li>
                                                                                 <a  class="pointer">
                                                                                     <i class="fa fa-fw fa-money text-blue"></i>Pay Due Payments
                                                                                 </a>
