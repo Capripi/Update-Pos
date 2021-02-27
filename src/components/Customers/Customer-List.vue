@@ -82,7 +82,7 @@
                                                                         </a>
                                                                         <ul  class="dropdown-menu dropdown-light pull-right">
                                                                             <li>
-                                                                                <a  class="pointer" href="#" @click="editData(index.id)">
+                                                                                <a  class="pointer" href="#" @click="editData(index.id,index.index)">
                                                                                     <i class="fa fa-fw fa-edit text-blue"></i>Edit
                                                                                 </a>
                                                                             </li>
@@ -169,9 +169,8 @@ export default {
             });
         },
         // edit row data
-        editData: function(id,index) {
-            this.custdata.splice(index,1)
-        axios.get('http://192.168.100.9/Project_Laravel/public/api/customer/' + id)
+        editData: function(id) {
+        axios.patch('http://192.168.100.9/Project_Laravel/public/api/customer/' + id)
         .then((res)=>{
                 console.log(res);
             })
