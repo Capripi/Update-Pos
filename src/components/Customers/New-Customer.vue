@@ -160,6 +160,7 @@ export default {
     },
     methods:{
         PostData(e){
+            confirm('Do You Wants to Save Record ?')
             const formdata = new FormData();
             formdata.append('address',this.posts.addresss),
             formdata.append('city',this.posts.city),
