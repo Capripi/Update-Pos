@@ -167,7 +167,20 @@ export default {
             .catch(error =>{
                 console.log(error)
             });
+        },
+        // edit row data
+        editData: function(id,index) {
+            this.custdata.splice(index,1)
+        axios.get('http://192.168.100.9/Project_Laravel/public/api/customer/' + id)
+        .then((res)=>{
+                console.log(res);
+            })
+            // catch error
+            .catch(error =>{
+                console.log(error)
+            });
         }
+
     },
     mounted(){
         axios.get("http://192.168.100.9/Project_Laravel/public/api/customer")
