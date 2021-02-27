@@ -82,7 +82,7 @@
                                                         <br>
                                                         <div class="col-md-4 col-md-offset-2 d-flex justify-content-center mx-auto">
                                                             <div class="input-group">
-                                                                <input type="submit" class="btn btn-danger btn-lg px-5" value="Save">
+                                                                <input type="submit" class="btn btn-danger btn-lg px-5" value="Save" @click="Redirect()">
                                                                 &nbsp;
                                                                 <button type="button" class="offset-md-1 btn btn-secondary btn-lg px-5 ">  <a href="/" class="text-light">Close</a> </button>
                                                             </div>
@@ -187,9 +187,10 @@ export default {
             console.table(this.posts);
             // submit data without page reload 
             e.preventDefault();
-        }
-
-    }
+        },
+        Redirect(){
+            setTimeout("window.location=''",2000);
+            }
 
     }
 </script>

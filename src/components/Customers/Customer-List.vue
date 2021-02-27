@@ -54,15 +54,15 @@
                                                 <table id="example2" class="table table-bordered table-striped dataTable dtr-inline" width="100%" role="grid" aria-describedby="example2_info" style="width: 100%;">
                                                         <thead class="bg-primary ">
                                                             <tr role="row">
-                                                                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 120px;"> Customer ID </th>
-                                                                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 150px;"> Customer Name </th>
+                                                                    <th class="sorting" rowspan="1" colspan="1" style="width: 120px;"> Customer ID </th>
+                                                                    <th class="sorting" rowspan="1" colspan="1" style="width: 150px;"> Customer Name </th>
                                                                     <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 70px;"> Mobile </th>
                                                                     <th class="sorting text-center" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 120px;"> Email </th>
-                                                                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 120px;"> Total Paid(-) </th>
-                                                                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 120px;"> Sales Due(-) </th>
-                                                                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 180px;"> Sales Return Due(+) </th>
-                                                                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 70px;"> Status </th>
-                                                                    <th class="sorting" tabindex="0" aria-controls="example2" rowspan="1" colspan="1" style="width: 70px;"> Action </th>                                                            
+                                                                    <th class="sorting" rowspan="1" colspan="1" style="width: 120px;"> Total Paid(-) </th>
+                                                                    <th class="sorting" rowspan="1" colspan="1" style="width: 120px;"> Sales Due(-) </th>
+                                                                    <th class="sorting" rowspan="1" colspan="1" style="width: 180px;"> Sales Return Due(+) </th>
+                                                                    <th class="sorting" rowspan="1" colspan="1" style="width: 70px;"> Status </th>
+                                                                    <th class="sorting" rowspan="1" colspan="1" style="width: 70px;"> Action </th>                                                            
                                                             </tr>
                                                         </thead>
                                                         <tbody>
@@ -83,7 +83,7 @@
                                                                         <ul  class="dropdown-menu dropdown-light pull-right">
                                                                             <li>
                                                                                 <a  class="pointer" href="#" @click="editData(index.id)">
-                                                                                    <i class="fa fa-fw fa-edit text-blue"></i>Edit
+                                                                                    <i class="fa fa-fw fa-edit text-primary"></i>Edit
                                                                                 </a>
                                                                             </li>
                                                                             <li>
@@ -117,7 +117,7 @@
                                                             <li class="page-item"><a class="page-link" href="#">3</a></li>
                                                             <li class="page-item"><a class="page-link" href="#">Next</a></li>
                                                         </ul>
-                                                        </nav>
+                                                    </nav>
                                                 </div>                              
                                             </div>
                                         </div>
