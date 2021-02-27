@@ -5,8 +5,7 @@
                     <!-- /.content-wrapper -->
                         <div class="content-wrapper p-2 mb-5">
                             <div class="container-fluid">
-                                      <h1 class="lead pt-3 px-3">New Customer <span class="text-sm">add new customer</span> </h1>
-
+                                    <h1 class="lead pt-3 px-3">New Customer <span class="text-sm">add new customer</span> </h1>
                                             <!-- alert start -->
                                                 <div class="alert alert-success alert-dismissible fade show" role="alert">
                                                 <strong>Ultimate Inventory with POS new Version 1.7.7 released , Faster and Customizable Application Software. If you have any queries please message here. [Some features are disabled in demo and it will be reset after each hour.]</strong> 
