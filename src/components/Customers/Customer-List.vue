@@ -28,7 +28,7 @@
                                                 </div> 
                                                 <div class="col-md-6"></div> 
                                                 <div class=" col-md-2 box-tools float-right mb-3">
-                                                    <a class="btn btn-block btn-info " href="#">
+                                                    <a class="btn btn-block btn-info " href="/Add_Customer">
                                                     <i class="fa fa-plus "></i> New  Customer </a>
                                                 </div>  
                                             </div>
@@ -83,7 +83,7 @@
                                                                         <ul  class="dropdown-menu dropdown-light pull-right">
                                                                             <li>
                                                                                 <a  class="pointer" href="#" @click="editData(index.id)">
-                                                                                    <i class="fa fa-fw fa-edit text-blue"></i>Pay Due Payments
+                                                                                    <i class="fa fa-fw fa-edit text-blue"></i>Edit
                                                                                 </a>
                                                                             </li>
                                                                             <li>
